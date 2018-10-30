@@ -11,4 +11,9 @@ describe('Feature test', function() {
     expect(thermostat.temp()).toEqual(20)
   });
 
+  it('Temperture UP set temp to 21',function() {
+    thermostat.tempUp();
+    expect(thermostat.temp()).toEqual(21)
+  });
+
 });

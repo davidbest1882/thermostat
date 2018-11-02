@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styling.css">
+    <title>Thermostat</title>
+    <style>
+
+
+    </style>
+    <script src="src/Thermostat.js"></script>
+    <script src="jquery.js"></script>
+    <script src="interface.js"></script>
+  </head>
+  <body>
+    <h1> Thermostat </h1>
+    <section>
+      <h1 id="temp"></h1><br>
+      <h1>Current temperature: <span id="current-temp"></span>&#0176;C</h1>
+      <p id="para3">
+        <select id="current-city">
+          <option value="london">London</option>
+          <option value="new+york">New York</option>
+          <option value="paris">Paris</option>
+          <option value="tokyo">Tokyo</option>
+        </select>
+      </p>
+      <p id="para1">
+        Temperature Controls<br>
+        <button id="temp-up">+</button>
+        <button id="temp-down">-</button>
+        <button id="temp-reset">reset</button><br><br>
+      </p>
+      <p id="para2">
+        Power Saving Mode is <span id="powersaving-status"></span><br>
+        <button id="powersaving-on">PSM on</button>
+        <button id="powersaving-off">PSM off</button>
+      </p>
+    </section>
+  </body>
+</html>
